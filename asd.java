@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SumOfTwoNumbers {
+public class DiffOfTwoNumbers {
     public static void main(String[] args) {
         // Create a Scanner object to read input
         Scanner scanner = new Scanner(System.in);
@@ -11,13 +11,13 @@ public class SumOfTwoNumbers {
 
         // Prompt the user to enter the second number
         System.out.print("Enter the second number: ");
-        double numbers2 = scanner.nextDouble();
+        double number2 = scanner.nextDouble();
 
         // Calculate the sum
-        double sum = number1 + numbers2;
+        double def = number1 - number2;
 
         // Display the result
-        System.out.println("The sum of " + number1 + " and " + numbers2 + " is: " + sum);
+        System.out.println("The sum of " + number1 + " and " + number2 + " is: " + def);
 
         // Close the scanner to prevent resource leaks
         scanner.close();
